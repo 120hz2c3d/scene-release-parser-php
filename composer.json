@@ -6,17 +6,19 @@
         {
             "name": "thcolin",
             "email": "th.colin3@gmail.com"
+        },
+        {
+            "name": "120hz2c3d",
+            "email": "120hz.2.c.3d+git@gmail.com"
         }
     ],
+    "description": "PHP library which parse the scene release name to get their tags and title",
     "autoload": {
 	    "psr-4": {
 		    "thcolin\\SceneReleaseParser\\": "src/"
 	    }
     },
     "require": {
-        "mhor/php-mediainfo": "~2.1",
-        "symfony/console": "^3.2",
-        "symfony/framework-bundle": "^3.2",
         "ext-json": "*"
     },
     "require-dev": {
